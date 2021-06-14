@@ -1,0 +1,67 @@
+body {
+   margin:0;
+    padding-top:800px;   
+}
+.profile {
+    width:400px;
+    height:auto;
+        border-radius:50px;    
+}
+#Welcome {
+    position:absolute;
+    overflow:hidden;
+    color:white;
+    opacity:0.9;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display:table;
+    width:100%;
+        height:100%;
+    top:0;
+        bottom:0;
+        left:0;
+        right:0;
+}
+.container {
+  display:table-cell;
+    position:relative;
+    text-align:center;
+    vertical-align:center;   
+}
+h1 {
+    color:black;
+font-weight:bold;
+    font-family:sans-serif;
+}
+h2 {
+    color:black;
+    font-weight:bold;
+    font-family:serif;
+}
+#Bio {
+    padding:50px;
+    text-align:center;
+    font-size:25px;
+}
+p {
+    font-weight:bold;
+    font-family:cursive;
+    color:#0505f2;
+}
+.menu {
+    position:absolute;
+  list-style:none;
+    top:10px;
+    right:30px;
+    z-index:5;
+    cursor:pointer;
+}
+.link {
+    float:left;
+    color:#fff;
+    padding:5px;
+    font-size:20px;
+    font-family:cursive;
+}
+.link:hover {
+    background-color:dodgerblue;
+}
