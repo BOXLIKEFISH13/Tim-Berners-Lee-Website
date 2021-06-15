@@ -1,11 +1,12 @@
 body {
    margin:0;
-    padding-top:800px;   
+    padding-top:800px;
+    text-align:center;
 }
 .profile {
     width:400px;
     height:auto;
-        border-radius:50px;    
+        border-radius:50px;
 }
 #Welcome {
     position:absolute;
@@ -25,7 +26,7 @@ body {
   display:table-cell;
     position:relative;
     text-align:center;
-    vertical-align:center;   
+    vertical-align:middle;
 }
 h1 {
     color:black;
@@ -48,7 +49,7 @@ p {
     color:#0505f2;
 }
 .menu {
-    position:absolute;
+    position:fixed;
   list-style:none;
     top:10px;
     right:30px;
@@ -64,4 +65,15 @@ p {
 }
 .link:hover {
     background-color:dodgerblue;
+}
+html {
+    scroll-behavior:smooth;
+}
+.article:hover {
+    font-size:25px;
+    color:#6a26e0;
+}
+.article {
+ font-size:20px;
+    color:burlywood;
 }
